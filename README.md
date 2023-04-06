@@ -41,7 +41,7 @@ pip install matplotlib
 
 
 
-## Run SAGNN on different datasets
+## Run SAGNN on ZINC
 
 ### 1. ZINC
 #### Run ZINC with GINEConv
