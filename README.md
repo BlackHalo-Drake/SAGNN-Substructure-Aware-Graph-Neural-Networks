@@ -54,6 +54,8 @@ pip install matplotlib
   ```
 You can run SAGNN on other datasets by converting the data to suitable format.
 
+Download pretrained neural network weights in https://drive.google.com/drive/folders/1ytwVuJW7RoYaiP4KfyPryebw5-Qt-qo7?usp=share_link
+
 #### Test SAGNN on ZINC with GINEConv
 
 ```
