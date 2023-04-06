@@ -43,6 +43,9 @@ pip install matplotlib
 
 ## Run SAGNN on ZINC
 
+Download ZINC dataset in https://drive.google.com/drive/folders/1TAoTiA4JndEfdFklJ7ESAibG0t8b8Lar?usp=share_link
+
+
 ### 1. ZINC
 #### Run ZINC with GINEConv
   ```
