@@ -2,6 +2,8 @@
 Official implementation of SAGNN for our AAAI 2023 paper: 
 **Substructure Aware Graph Neural Networks**.
 
+<img src="fig/model.png" width=100%> 
+
 ## Setup 
 
 ```
