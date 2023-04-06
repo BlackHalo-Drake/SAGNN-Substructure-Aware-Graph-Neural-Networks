@@ -34,7 +34,6 @@ conda install -c conda-forge rdkit -y
 pip install yacs==0.1.8 --force  # PyG currently use 0.1.6 which doesn't support None argument. 
 pip install tensorboard
 pip install matplotlib
-
 ```
 
 
@@ -49,12 +48,10 @@ Download ZINC dataset in https://drive.google.com/drive/folders/1TAoTiA4JndEfdFk
 #### Train in ZINC with GINEConv
   ```
   python -m train.zinc model.gnn_type GINEConv 
-
   ```
 #### Train in  ZINC with SimplifiedPNAConv
   ```
   python -m train.zinc model.gnn_type SimplifiedPNAConv 
-
   ```
 You can run SAGNN on other datasets by converting the data to suitable format.
 
@@ -62,6 +59,5 @@ You can run SAGNN on other datasets by converting the data to suitable format.
 Download pretrained neural network weights in https://drive.google.com/drive/folders/1ytwVuJW7RoYaiP4KfyPryebw5-Qt-qo7?usp=share_link and put it in \checkpoint\ZINC
 ```
   python -m train.test_zinc model.gnn_type GINEConv train.checkpoint_path ./checkpoint/ZINC/SAGNN_best_zinc.pt
-
 ```
 
