@@ -1,0 +1,19 @@
+dataset: ZINC
+model:
+  num_layers: 6
+  mini_layers: 1
+  embs_combine_mode: 'concat'
+  pool: add
+  fullgraph_pos_enc_dim: 20
+  egograph_pos_enc_dim: 16
+  cutgraph_pos_enc_dim: 16
+  hidden_size: 256
+  pos_enc_dim: 24
+subgraph:
+  hops: 3
+train:
+  epochs: 450
+  lr_patience: 50
+  lr: 1e-3
+
+
