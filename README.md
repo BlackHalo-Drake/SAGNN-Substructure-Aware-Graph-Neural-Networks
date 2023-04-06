@@ -56,7 +56,8 @@ Download ZINC dataset in https://drive.google.com/drive/folders/1TAoTiA4JndEfdFk
 You can run SAGNN on other datasets by converting the data to suitable format.
 
 #### Test SAGNN on ZINC with GINEConv
-Download pretrained neural network weights in https://drive.google.com/drive/folders/1ytwVuJW7RoYaiP4KfyPryebw5-Qt-qo7?usp=share_link and put it in \checkpoint\ZINC
+Download pretrained neural network weights in https://drive.google.com/drive/folders/1ytwVuJW7RoYaiP4KfyPryebw5-Qt-qo7?usp=share_link 
+and put it in \checkpoint\ZINC
 ```
   python -m train.test_zinc model.gnn_type GINEConv train.checkpoint_path ./checkpoint/ZINC/SAGNN_best_zinc.pt
 ```
