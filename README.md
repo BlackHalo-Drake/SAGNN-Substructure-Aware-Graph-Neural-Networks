@@ -62,3 +62,19 @@ and put it in \checkpoint\ZINC
   python -m train.test_zinc model.gnn_type GINEConv train.checkpoint_path ./checkpoint/ZINC/SAGNN_best_zinc.pt
 ```
 
+## Citation
+Please kindly cite this paper if you use the code:
+#### 
+  ```
+  @inproceedings{zeng2023substructure,
+  title={Substructure Aware Graph Neural Networks},
+  author={Zeng, Dingyi and Liu, Wanlong and Chen, Wenyu and Zhou, Li  and Malu Zhang and Qu, Hong },
+  booktitle={Proc. of AAAI},
+  year={2023}
+}
+  ```
+####
+
+
+
+
