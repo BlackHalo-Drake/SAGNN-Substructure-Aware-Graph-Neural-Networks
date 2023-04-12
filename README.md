@@ -63,8 +63,8 @@ and put it in \checkpoint\ZINC
 ```
 
 ## Citation
-Please kindly cite this paper if you use the code:
-#### 
+
+#### Please kindly cite this paper if you use the code:
   ```
   @inproceedings{zeng2023substructure,
   title={Substructure Aware Graph Neural Networks},
