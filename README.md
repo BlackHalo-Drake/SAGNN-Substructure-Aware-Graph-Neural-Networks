@@ -9,7 +9,7 @@ Official implementation of SAGNN for our AAAI 2023 paper:
 ```
 # params
 # 4/1/2023, newest packages. 
-ENV=gnn_ak
+ENV=sagnn
 CUDA=11.1
 TORCH=1.9.1
 PYG=2.0.1
