@@ -2,6 +2,9 @@
 Official implementation of SAGNN for our AAAI 2023 paper: 
 **Substructure Aware Graph Neural Networks**.
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/substructure-aware-graph-neural-networks/graph-regression-on-zinc)](https://paperswithcode.com/sota/graph-regression-on-zinc?p=substructure-aware-graph-neural-networks)
+
+
 <img src="fig/model.png" width=100%> 
 
 ## Setup 
