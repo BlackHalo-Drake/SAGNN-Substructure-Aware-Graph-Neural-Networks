@@ -70,9 +70,12 @@ and put it in \checkpoint\ZINC
 #### Please kindly cite this paper if you use the code:
   ```
   @inproceedings{zeng2023substructure,
-  title={Substructure Aware Graph Neural Networks},
-  author={Zeng, Dingyi and Liu, Wanlong and Chen, Wenyu and Zhou, Li  and Malu Zhang and Qu, Hong },
+  title={Substructure aware graph neural networks},
+  author={Zeng, Dingyi and Liu, Wanlong and Chen, Wenyu and Zhou, Li and Zhang, Malu and Qu, Hong},
   booktitle={Proc. of AAAI},
+  volume={37},
+  number={9},
+  pages={11129--11137},
   year={2023}
 }
   ```
